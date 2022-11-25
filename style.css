@@ -26,6 +26,23 @@ hr{
     margin: auto;
 }
 
+.container{
+    padding: 0rem 1rem;
+}
+
+.container-center {
+    max-width : 600px;
+    margin: auto;
+    text-align: center;
+}
+
+/** spaces **/
+
+.spaces {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
 /** links**//
 .link{
     box-sizing: border-box;
@@ -104,18 +121,18 @@ hr{
 
 .hero .hero-heading{
     padding: 1rem;
-    color: var(--dark-gray)
+    color: black;
 }
 
 .hero .hero-heading 
 .heading-inverted{
-    color: var(--primary-color);
+    color: black;
 }
 
 /** Section **/
 
 .section{
-    padding: 1rem;
+    padding: 1rem 1rem;
 }
 
 .section h3 {
@@ -123,7 +140,7 @@ hr{
 }
 
 .off{
-    background-color: var(--light-gray);
+    background-color:white;
 }
 
 /** Footer**/
