@@ -30,7 +30,7 @@ hr{
 /** spaces **/
 
 
-/** links**//
+/** links**/
 .link{
     box-sizing: border-box;
     text-decoration: none;
@@ -40,17 +40,18 @@ hr{
 }
 
 .primary-link{
-    background-color: var(--primary-color);
+    background-color:  antiquewhite;
     border-radius: 1rem;
     box-sizing:border-box;
-    
-    color: white;
+    border: 1px solid black;
+    color:black;
 }
 
 .secondary-link{
-    color: white;
+    background-color: antiquewhite;
+    color: black;
     border-radius: 00.5rem;
-    border: 1px solid var(--primary-color);
+    border: 1px solid black;
 }
 
 /**Lists **/
@@ -129,6 +130,7 @@ hr{
 
 .off{
     background-color:white;
+    margin-inline-start: -40px;
 }
 
 /** Footer**/
