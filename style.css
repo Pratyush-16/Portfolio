@@ -26,22 +26,9 @@ hr{
     margin: auto;
 }
 
-.container{
-    padding: 0rem 1rem;
-}
-
-.container-center {
-    max-width : 600px;
-    margin: auto;
-    text-align: center;
-}
 
 /** spaces **/
 
-.spaces {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-}
 
 /** links**//
 .link{
@@ -70,6 +57,7 @@ hr{
 
 .non-bullets{
     list-style: none;
+    margin: 0%;
 }
 
 .list-item-inline{
