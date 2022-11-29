@@ -2,14 +2,14 @@
 
 :root{
     --primary-color: #a78bfa;
-    --dark-gray: rgb(156 163 175);
+    --dark-gray: rgb(218, 225, 238);
     --light-gray:#e2e8f0;
 }
 body{
     font-family: 'Roboto Mono', 
     monospace;
     margin: 0px;
-    background-color: rgb(161 161 170);
+    background-color: rgb(194, 194, 204);
 }
 
 hr{
@@ -26,7 +26,18 @@ hr{
     margin: auto;
 }
 
+ .container-center-blog{
+    border: black;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 600px;
+    margin: auto;
+    border
+}
 
+p{
+    text-align: center;
+}
 /** spaces **/
 
 
@@ -39,15 +50,22 @@ hr{
     margin-bottom: 1rem;
 }
 
-.primary-link{
+.primary-link {
+    display: inline-block;
     background-color:  antiquewhite;
     border-radius: 1rem;
     box-sizing:border-box;
     border: 1px solid black;
     color:black;
+    
+}
+.primary-link:hover{
+    cursor: pointer;
+    color: cadetblue;
 }
 
 .secondary-link{
+    display: inline-block;
     background-color: antiquewhite;
     color: black;
     border-radius: 00.5rem;
@@ -70,7 +88,7 @@ hr{
 
 .navigation{
     background-color: var(--primary-color);
-    color: white;
+    color: black;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
@@ -78,6 +96,11 @@ hr{
     border-top-right-radius: 1rem;
 }
 
+.navigation-blog{
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 1rem;
+}
 .navigation .nav-Brand{
     font-size: 1 rem;
     font-weight: bold;
@@ -121,6 +144,7 @@ hr{
 /** Section **/
 
 .section{
+    justify-content: center;
     padding: 1rem 1rem;
 }
 
@@ -129,6 +153,7 @@ hr{
 }
 
 .off{
+    justify-content: center;
     background-color:white;
     margin-inline-start: -40px;
 }
@@ -153,4 +178,3 @@ hr{
     color: white;
     text-decoration: none;
 }
-
