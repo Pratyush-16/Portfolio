@@ -24,6 +24,8 @@ hr{
 .container-center{
     max-width: 600px;
     margin: auto;
+    justify-content: center;
+    align-items: center;
 }
 
  .container-center-blog{
@@ -58,6 +60,8 @@ p{
     border: 1px solid black;
     color:black;
     
+    
+    
 }
 .primary-link:hover{
     cursor: pointer;
@@ -65,12 +69,19 @@ p{
 }
 
 .secondary-link{
+    
     display: inline-block;
     background-color: antiquewhite;
     color: black;
     border-radius: 00.5rem;
     border: 1px solid black;
+    
 }
+.secondary-link:hover{
+    cursor: pointer;
+    color: darkcyan;
+}
+
 
 /**Lists **/
 
@@ -141,18 +152,26 @@ p{
     color: black;
 }
 
+.img-blog{
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+
 /** Section **/
 
 .section{
     justify-content: center;
     padding: 1rem 1rem;
+    
 }
 
 .section h3 {
  text-align: center;
 }
 
-.off{
+.off {
+    
     justify-content: center;
     background-color:white;
     margin-inline-start: -40px;
