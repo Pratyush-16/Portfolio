@@ -50,6 +50,7 @@ p{
     padding: 0.5rem 1rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    margin-left: 2px;
 }
 
 .primary-link {
@@ -196,4 +197,10 @@ p{
 .footer .link{
     color: white;
     text-decoration: none;
+}
+
+@media screen {
+     
+
+
 }
